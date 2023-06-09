@@ -7,7 +7,7 @@ def logger1(old_function):
         date = datetime.now()
         name = old_function.__name__
         arguments = f' {args}_{kwargs}'
-        res = [old_function(*args, **kwargs)]
+        res = old_function(*args, **kwargs)
         result = old_function(*args, **kwargs)
         with open('main.log', 'a', encoding='utf-8') as log_file:
             log_file.write(f'Datetime: {str(date)} --- Function: {name} --- '
@@ -28,7 +28,7 @@ def logger2(path):
             date = datetime.now()
             name = old_function.__name__
             arguments = f' {args}_{kwargs}'
-            res = [old_function(*args, **kwargs)]
+            res = old_function(*args, **kwargs)
             result = old_function(*args, **kwargs)
             with open(file_name, 'a', encoding='utf-8') as log_file:
                 log_file.write(f'Datetime: {str(date)} --- Function: {name} --- '
