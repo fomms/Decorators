@@ -1,0 +1,6 @@
+Datetime: 2023-06-09 19:06:27.176184 --- Function: hello_world --- Arguments:  ()_{} --- Result: ['Hello World']
+Datetime: 2023-06-09 19:06:27.176184 --- Function: summator --- Arguments:  (2, 2)_{} --- Result: [4]
+Datetime: 2023-06-09 19:06:27.177181 --- Function: div --- Arguments:  (6, 2)_{} --- Result: [3.0]
+Datetime: 2023-06-09 19:06:27.177181 --- Function: summator --- Arguments:  (4.3,)_{'b': 2.2} --- Result: [6.5]
+Datetime: 2023-06-09 19:06:27.177181 --- Function: summator --- Arguments:  ()_{'a': 0, 'b': 0} --- Result: [0]
+Datetime: 2023-06-09 19:06:27.193138 --- Function: find_smartest --- Arguments:  ()_{} --- Result: ['Самый умный:Thanos']
